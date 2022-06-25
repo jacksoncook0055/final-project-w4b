@@ -223,3 +223,6 @@
 .simic:hover img {
     visibility: visible;
 }
+#active img {
+    visibility: visible;
+}
