@@ -1,0 +1,44 @@
+.azoriuspage {
+    background: linear-gradient(to right, #FCFCC1, #67C1F5);
+}
+.borospage {
+    background: linear-gradient(to right, red, #FCFCC1);
+}
+.dimirpage {
+    background: linear-gradient(to right, #67C1F5, black);
+}
+.golgaripage {
+    background: linear-gradient(to right, black, #26B569);
+}
+.gruulpage {
+    background: linear-gradient(to right, red, #26B569);
+}
+.izzetpage {
+    background: linear-gradient(to right, #67C1F5, red);
+}
+.orzhovpage {
+    background: linear-gradient(to right, #FCFCC1, black);
+}
+.rakdospage {
+    background: linear-gradient(to right, black, red);
+}
+.selesnyapage {
+    background: linear-gradient(to right, #26B569, #FCFCC1);
+}
+.simicpage {
+    background: linear-gradient(to right, #26B569, #67C1F5);
+}
+.background {
+    position: fixed;
+    z-index: -10;
+    display: inline-block;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+} 
+.parun img{
+    display: block;
+    margin: auto;
+    width: 30%;
+}

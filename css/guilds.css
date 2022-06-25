@@ -1,0 +1,225 @@
+.container {
+    position: absolute;
+    /* background-color: #33fEfD; */
+    width: 100%;
+    height: 550px;
+    /* float: left; */
+}
+.guildpact {
+    /* display: block;
+    margin: auto; */
+    position: absolute;
+    /* top: 0%; */
+    left: 26.75%;
+    z-index: 0;
+}
+.azorius {
+    z-index: 10;
+    position: absolute;
+    left: 44.85%;
+    top: 9.5%;
+    width: 120px;
+    height: 120px;
+    /* background-color: #86CFF0; */
+    border-radius: 50%
+}
+.boros {
+    z-index: 10;
+    position: absolute;
+    left: 31.63%;
+    top: 53.5%;
+    width: 120px;
+    height: 120px;
+    /* background: #AF4904; */
+    border-radius: 50%
+}
+.dimir {
+    z-index: 10;
+    position: absolute;
+    right: 32.97%;
+    top: 32.7%;
+    width: 120px;
+    height: 120px;
+    /* background: #5068C0; */
+    border-radius: 50%
+}
+.golgari {
+    z-index: 10;
+    position: absolute;
+    left: 44.85%;
+    top: 77.3%;
+    width: 120px;
+    height: 120px;
+    /* background: #667B32; */
+    border-radius: 50%
+}
+.gruul {
+    z-index: 10;
+    position: absolute;
+    left: 36.73%;
+    top: 71%;
+    width: 120px;
+    height: 120px;
+    /* background: #AA4E32; */
+    border-radius: 50%
+}
+.izzet {
+    z-index: 10;
+    position: absolute;
+    right: 32.97%;
+    top: 54%;
+    width: 120px;
+    height: 120px;
+    /* background: #89404A; */
+    border-radius: 50%
+}
+.orzhov {
+    z-index: 10;
+    position: absolute;
+    right: 38.02%;
+    top: 16%;
+    width: 120px;
+    height: 120px;
+    /* background: #A68EA4; */
+    border-radius: 50%
+}
+.rakdos {
+    z-index: 10;
+    position: absolute;
+    right: 38.02%;
+    top: 71%;
+    width: 120px;
+    height: 120px;
+    /* background: #A60F0F; */
+    border-radius: 50%
+}
+.selesnya {
+    z-index: 10;
+    position: absolute;
+    left: 31.63%;
+    top: 32.7%;
+    width: 120px;
+    height: 120px;
+    /* background: #86B649; */
+    border-radius: 50%
+}
+.simic {
+    z-index: 10;
+    position: absolute;
+    left: 36.63%;
+    top: 16%;
+    width: 120px;
+    height: 120px;
+    /* background: #388E5D; */
+    border-radius: 50%
+}
+.azorius img {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 16%;
+    top: 7%;
+    visibility: hidden;
+}
+.azorius:hover img {
+    visibility: visible;
+}
+.boros img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 15%;
+    top: 18%;
+    visibility: hidden;
+}
+.boros:hover img {
+    visibility: visible;
+}
+.dimir img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 13%;
+    top: 18%;
+    visibility: hidden;
+}
+.dimir:hover img {
+    visibility: visible;
+}
+.golgari img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 15%;
+    top: 16%;
+    visibility: hidden;
+}
+.golgari:hover img {
+    visibility: visible;
+}
+.gruul img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 15%;
+    top: 13%;
+    visibility: hidden;
+}
+.gruul:hover img {
+    visibility: visible;
+}
+.izzet img {
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    left: 12%;
+    top: 12%;
+    visibility: hidden;
+}
+.izzet:hover img {
+    visibility: visible;
+}
+.orzhov img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 13%;
+    top: 14%;
+    visibility: hidden;
+}
+.orzhov:hover img {
+    visibility: visible;
+}
+.rakdos img {
+    position: absolute;
+    width: 92px;
+    height: 90px;
+    left: 11%;
+    top: 11%;
+    visibility: hidden;
+}
+.rakdos:hover img {
+    visibility: visible;
+}
+.selesnya img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 15%;
+    top: 15%;
+    visibility: hidden;
+}
+.selesnya:hover img {
+    visibility: visible;
+}
+.simic img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 15%;
+    top: 15%;
+    visibility: hidden;
+}
+.simic:hover img {
+    visibility: visible;
+}
