@@ -1,23 +1,28 @@
 .container {
-    position: absolute;
-    /* background-color: #33fEfD; */
-    width: 100%;
-    height: 550px;
-    /* float: left; */
+    margin: auto;
+    /* background-color: aqua; */
+    width: 600px;
+    height: 600px;
+}
+.guild-container {
+    width: 600px;
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: flex;
+    position: relative;
+    top: -600px;
 }
 .guildpact {
-    /* display: block;
-    margin: auto; */
-    position: absolute;
-    /* top: 0%; */
-    left: 26.75%;
-    z-index: 0;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 .azorius {
     z-index: 10;
     position: absolute;
-    left: 44.85%;
-    top: 9.5%;
+    left: 40.85%;
+    top: 8.7%;
     width: 120px;
     height: 120px;
     /* background-color: #86CFF0; */
@@ -26,8 +31,8 @@
 .boros {
     z-index: 10;
     position: absolute;
-    left: 31.63%;
-    top: 53.5%;
+    left: 11.2%;
+    top: 49.5%;
     width: 120px;
     height: 120px;
     /* background: #AF4904; */
@@ -36,8 +41,8 @@
 .dimir {
     z-index: 10;
     position: absolute;
-    right: 32.97%;
-    top: 32.7%;
+    right: 9.6%;
+    top: 30.1%;
     width: 120px;
     height: 120px;
     /* background: #5068C0; */
@@ -46,8 +51,8 @@
 .golgari {
     z-index: 10;
     position: absolute;
-    left: 44.85%;
-    top: 77.3%;
+    left: 40.7%;
+    top: 71%;
     width: 120px;
     height: 120px;
     /* background: #667B32; */
@@ -56,8 +61,8 @@
 .gruul {
     z-index: 10;
     position: absolute;
-    left: 36.73%;
-    top: 71%;
+    left: 22.5%;
+    top: 65%;
     width: 120px;
     height: 120px;
     /* background: #AA4E32; */
@@ -66,8 +71,8 @@
 .izzet {
     z-index: 10;
     position: absolute;
-    right: 32.97%;
-    top: 54%;
+    right: 9.7%;
+    top: 49.5%;
     width: 120px;
     height: 120px;
     /* background: #89404A; */
@@ -76,8 +81,8 @@
 .orzhov {
     z-index: 10;
     position: absolute;
-    right: 38.02%;
-    top: 16%;
+    right: 21%;
+    top: 14.5%;
     width: 120px;
     height: 120px;
     /* background: #A68EA4; */
@@ -86,8 +91,8 @@
 .rakdos {
     z-index: 10;
     position: absolute;
-    right: 38.02%;
-    top: 71%;
+    right: 21%;
+    top: 65%;
     width: 120px;
     height: 120px;
     /* background: #A60F0F; */
@@ -96,8 +101,8 @@
 .selesnya {
     z-index: 10;
     position: absolute;
-    left: 31.63%;
-    top: 32.7%;
+    left: 11%;
+    top: 30.1%;
     width: 120px;
     height: 120px;
     /* background: #86B649; */
@@ -106,8 +111,8 @@
 .simic {
     z-index: 10;
     position: absolute;
-    left: 36.63%;
-    top: 16%;
+    left: 22.4%;
+    top: 14.7%;
     width: 120px;
     height: 120px;
     /* background: #388E5D; */
@@ -115,10 +120,10 @@
 }
 .azorius img {
     position: absolute;
-    width: 83px;
-    height: 83px;
-    left: 16%;
-    top: 7%;
+    width: 79px;
+    height: 79px;
+    left: 16.5%;
+    top: 9.4%;
     visibility: hidden;
 }
 .azorius:hover img {
@@ -126,10 +131,10 @@
 }
 .boros img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 15%;
-    top: 18%;
+    width: 84px;
+    height: 83px;
+    left: 14.5%;
+    top: 15%;
     visibility: hidden;
 }
 .boros:hover img {
@@ -139,7 +144,7 @@
     position: absolute;
     width: 85px;
     height: 85px;
-    left: 13%;
+    left: 14%;
     top: 18%;
     visibility: hidden;
 }
@@ -148,10 +153,10 @@
 }
 .golgari img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 15%;
-    top: 16%;
+    width: 86px;
+    height: 86px;
+    left: 14.3%;
+    top: 15%;
     visibility: hidden;
 }
 .golgari:hover img {
@@ -159,10 +164,10 @@
 }
 .gruul img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 15%;
-    top: 13%;
+    width: 88px;
+    height: 88px;
+    left: 13.5%;
+    top: 13.5%;
     visibility: hidden;
 }
 .gruul:hover img {
@@ -170,10 +175,10 @@
 }
 .izzet img {
     position: absolute;
-    width: 89px;
-    height: 89px;
-    left: 12%;
-    top: 12%;
+    width: 90px;
+    height: 90px;
+    left: 12.5%;
+    top: 11.3%;
     visibility: hidden;
 }
 .izzet:hover img {
@@ -181,10 +186,10 @@
 }
 .orzhov img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 13%;
-    top: 14%;
+    width: 80px;
+    height: 80px;
+    left: 17%;
+    top: 17%;
     visibility: hidden;
 }
 .orzhov:hover img {
@@ -192,10 +197,10 @@
 }
 .rakdos img {
     position: absolute;
-    width: 92px;
-    height: 90px;
-    left: 11%;
-    top: 11%;
+    width: 94px;
+    height: 94px;
+    left: 10.5%;
+    top: 10%;
     visibility: hidden;
 }
 .rakdos:hover img {
@@ -203,10 +208,10 @@
 }
 .selesnya img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 15%;
-    top: 15%;
+    width: 87px;
+    height: 88px;
+    left: 14.1%;
+    top: 14%;
     visibility: hidden;
 }
 .selesnya:hover img {
@@ -214,10 +219,10 @@
 }
 .simic img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 15%;
-    top: 15%;
+    width: 80px;
+    height: 80px;
+    left: 17%;
+    top: 16.5%;
     visibility: hidden;
 }
 .simic:hover img {
